@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project A012</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+  </style>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="header-right">
+          <div class="header-list1">
+            <a href="#">Bahasa</a>
+            <a href="#">Ruang Media</a>
+            <a href="#">Karir</a>
+            <a href="#">English</a>
+            <a href="#">Bantuan dan Layanan Pelanggan</a>
+          </div>
+        </div>
+          <div class="header-left">
+          <img class="logo" src="data:image/png;base64,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">
+          <div class="headerlist2">
+          <ul>
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Pengendara Bermotor</a></li>
+            <li><a href="#">Konsumen Bisnis</a></li>
+            <li><a href="#">Energi dan Inovasi</a></li>
+            <li><a href="#">Tentang Kami</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="slider">
+          <div class=isi-slider>
+            <img src="gambar/gambar 1" alt="gambar 1">
+            <img src="gambar/international-womens-day-2021.jpeg" alt="international-womens-day-2021.jpeg">
+            <img src="gambar/shell-advance-banner.webp" alt="shell-advance-banner.webp">
+          </div>
+        </div>
+      </div>
+      <div class="top-button">
+        <a href="#" class="btn hoax">Waspadai Hoax Hadiah Bahan Bakar Shell Untuk Kartu Prakerja</a>
+        <a href="#" class="btn modus">Waspadai Penipuan Bermodus Penawaran SPBU Shell Mini</a>
+      </div>
+    </div>
+      <div class="news-title">
+        <h1>BERITA TERBARU</h1>
+      </div>
+      <div class="news-list">
+          <div class="news-wrapper-text1">
+            <h2>
+              <a href="#" class="txt-link"><span>SPBU Shell Sediakan Dropbox Sampah Botol Plastik Untuk Didaur Ulang</span></a>
+              <p>
+                Dropbox sampah botol plastik tersedia di 10 SPBU Shell yang tersebar di DKI Jakarta dan Bandung.
+              </p>
+            </h2>
+          </div>
+          <div class="news-wrapper-text2">
+            <h2>
+              <a href="#" class="txt-link"><span>Shell ExpertConnect 2021: Penggunaan Biodiesel di Indonesia, Sekarang dan Masa Depan </span></a>
+              <p>
+                Dukung pengembangan penggunaan Biodiesel di Indonesia, Shell bekerja sama dengan Pusat Penelitian & Pengembangan Teknologi Minyak dan Gas Bumi (PPPTMGB) LEMIGAS gelar Shell ExpertConnect 2021.
+              </p>
+            </h2>
+          </div>
+          <div class="news-wrapper-text3">
+            <h2>
+              <a href="#" class="txt-link"><span>Shell Hadirkan Program Pelatihan Berbasis Daring Untuk Mekanik</span></a>
+              <p>
+                Sebagai wujud komitmen Shell dalam memberikan dukungan menyeluruh bagi pertumbuhan mitra bengkelnya (Branded Independent Workshop – BIWS), Shell menghadirkan Shell Workshop Academy (SWA) yang merupakan rangkaian pelatihan berbasis daring (online) yang bertujuan untuk mendukung para pemilik bengkel dalam mengembangkan keterampilan para mekanik. Melalui SWA, Shell menjadi pelopor penyelenggara program pelatihan mekanik melalui media digital. 
+              </p>
+            </h2>
+          </div>
+          <div class="news-wrapper-text4">
+            <h2>
+              <a href="#" class="txt-link"><span>Shell Indonesia Dorong Solusi Energi Ramah Lingkungan Melalui Penambahan Portofolio Produk Rendah Emisi</span></a>
+              <p>
+                Shell Indonesia memperkuat komitmen dalam mendukung era transisi dunia ke penggunaan energi yang lebih bersih melalui portofolio produk yang rendah emisi. Komitmen Shell di Indonesia dilandasi strategi Powering Progress yang dicanangkan oleh Shell secara global untuk mempercepat transisi bisnis menuju perusahaan energi dengan net-zero emission di 2050 sesuai dengan perkembangan ekspektasi masyarakat secara umum.
+              </p>
+            </h2>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="bottom-button">
+        <a href="#" class="btn harga">Harga BBM Shell</a>
+        <a href="#" class="btn nomor">Perubahan nomor telepon layanan shell</a>
+      </div>
+
+      <div class="list-basecomponents">
+        <div class="list-basecomponent">
+            <div class="list-basecomponent-header">
+                <h2>PENGGUNA KENDARAAN BERMOTOR</h2>
+            </div>
+            <div class="list-basecomponent-item">
+                <div class="contents-item">
+                    <div class="promolist-image">
+                        <img src="https://www.shell.co.id/in_id/motorists/shell-fuels/_jcr_content/pagePromo/image.img.960.jpeg/1596691803624/women-in-car-jasmine.jpeg?imformat=chrome&imwidth=320">
+                    </div>
+                    <div class="promolist-texts">
+                        <div class="promolist-text" style="cursor: pointer;"><u>Bahan Bakar Shell</u> 
+
+                        </div>
+                        <p>Coba rangkaian bahan bakar Shell yang berkualitas dan keahlian teknologi dengan inovasi terdepan yang masuk ke dalam setiap tetes.</p>
+                    </div>
+                    
+                </div>
+
+                <div class="contents-item">
+                    <div class="promolist-image">
+                        <img src="https://www.shell.co.id/in_id/motorists/oil-and-lubricant/_jcr_content/pagePromo/image.img.960.png/1587448656509/range-of-oil-and-lubricant-products.png?imwidth=384">
+                    </div>
+                    <div class="promolist-texts">
+                        <div class="promolist-text" style="cursor: pointer;"> <u>Minyak & Pelumas Mesin Shell</u>
+
+                        </div>
+                        <p>Pilih penawaran special pelumas Shell untuk menjaga mesin kenderaan Anda selalu dalam keadaan prima dan membantu membawa Anda lebih jauh.</p>
+                    </div>
+                    
+                </div>
+
+                <div class="contents-item">
+                    <div class="promolist-image">
+                        <img src="https://www.shell.co.id/in_id/motorists/motoring-tips-and-advice/_jcr_content/pagePromo/image.img.960.jpeg/1459543663808/man-fuel-car-singapore.jpeg?imformat=chrome&imwidth=640">
+                    </div>
+                    <div class="promolist-texts">
+                        <div class="promolist-text" style="cursor: pointer;"><u>Tips Berkendara</u>
+
+                        </div>
+                        <p>Memelihara kendaraan Anda secara lebih baik dengan mempelajari cara lebih efisien bahan bakar dan lebih aman di jalan raya.</p>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+        
+
+    </div>
+    <div class="karir-wrapper">
+        <div class="karirs">
+            <div class="item-karir">
+                <div class="menu-karir">
+                    <h2>Karir</h2>
+                    <h3>Temukan bagaimana Anda dapat turut berperan dengan berkarir di Shell.</h3>
+                    <p style="cursor: pointer;">Temukan apakah karier di Shell cocok untuk Anda</p>
+                </div>
+            </div>
+            <div class="item-karir">
+                <div class="gambar-karir">
+                    <img src="https://www.shell.co.id/in_id/careers/_jcr_content/pagePromo/image.img.960.jpeg/1511340404368/careers-homepage.jpeg?imformat=chrome&imwidth=640" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="list-promoitem">
+        <div class="list-promoitems">
+            <div class="list-promoitems-header">
+                <h2>ANDA MUNGKIN JUGA MENYUKAI</h2>
+            </div>
+            <div class="list-promoitems-item">
+                <div class="contents-promoitem">
+                    <div class="promo-image">
+                        <img src="https://www.shell.co.id/in_id/careers/experienced-professionals/job-search/_jcr_content/pagePromo/image.img.960.jpeg/1477058745347/mixed-race-businessman-examining-molecular-model.jpeg?imformat=chrome&imwidth=640">
+                    </div>
+                    <div class="promo-texts">
+                        <div class="promo-text">
+                            <h3 style="cursor: pointer;"><u>Pencarian kerja untuk profesional</u> </h3>
+
+                        </div>
+                        <p>Jelajahi peluang karier dan temukan bagaimana Anda&nbsp;dapat turut berperan dengan berkarir di Shell.</p>
+                    </div>
+                    
+                </div>
+
+                <div class="contents-promoitem">
+                    <div class="promo-image">
+                        <img src="https://www.shell.co.id/in_id/media/_jcr_content/pagePromo/image.img.960.jpeg/1475761935446/shell-service-station.jpeg?imformat=chrome&imwidth=640">
+                    </div>
+                    <div class="promo-texts">
+                        <div class="promo-text"> 
+                            <h3 style="cursor: pointer;"><u>Ruang Media</u></h3>
+
+                        </div>
+                        <p>Dapatkan informasi mengenai berita pers dan pidato dari para pimpinan Shell serta lihat laporan kami.</p>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+        
+
+    </div>
+
+    </main>
+    <footer>
+      
+      <div class="foot-footer">
+          <ul>
+              <li><a href="#">Aksebilitas</a></li>
+              <li><a href="#">Syarat dan Ketentuan</a></li>
+              <li><a href="#">Pemberitahuan Privasi</a></li>
+              <li><a href="#">Kebijakan Cookie</a></li>
+              <li><a href="#">Modifikasi Pengaturan Cookie</a></li>
+          </ul>
+      </div>
+  </footer>
+  </body>
+</html>
